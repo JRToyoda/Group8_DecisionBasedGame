@@ -1,0 +1,2089 @@
+<resources>
+    <string name="app_name">GroupNumber8_DecisionBasedGame</string>
+    <string name="start">START</string>
+    <string name="default_Button">Choice 1</string>
+    <string name="default_Button2">Choice 2</string>
+    <string name="default_Button3">Choice 3</string>
+    <string name="default_Button4">Choice 4</string>
+    <string name="default_Button5">>Continue</string>
+    <string name="default_txtView">Name</string>
+    <string name="default_txtView2">She looks up at you curiously and pauses. She\'s not sure if she should
+            tell; she\'s much more worried about you snitching on her to her mother.
+        You know she reads late into the night. At home you can see the lights from the houses.
+            Her room is lit dimly with a candle that flickers from the cold wind.
+</string>
+
+    <string-array name="default_scenario">
+        //Scenario Prompt
+        <item>Scenario</item>
+        //Choices
+        <item>Choice 1</item>
+        <item>Choice 2</item>
+        <item>Choice 3</item>
+        <item>Choice 4</item>
+        //Extra
+        <item>>Continue</item>
+        //character name
+        <item>Name</item>
+        //character image
+        <item>character_img</item>
+        //background image
+        <item>background_img</item>
+        //Extra scenario
+        <item>Scenario</item>
+        //Choice 4 scenario
+        <item>Scenario</item>
+        //Choice 3 scenario
+        <item>Scenario</item>
+        //Choice 2 scenario
+        <item>Scenario</item>
+        //Choice 1 scenario
+        <item>Scenario</item>
+    </string-array>
+
+    //start from here
+
+    <string-array name="Scenario_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The dark sky looms far above, framed by tall red sentinels swathed in layers of rust.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Rain patters against your cheeks.</p>
+<p>&nbsp;</p>]]></item>
+        <item>>Continue</item>
+        <item>bg_start</item>
+        <item>Scenario_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+        <p>You are alone.</p>]]></item>
+        <item>[Are you alive?]</item>
+        <item>[Touch your neck]</item>
+        <item>[Move your hand]</item>
+        <item>[Stand up]</item>
+        <item>[Return]</item>
+        <item>bg_start</item>
+        <item>Scenario_0</item>
+        <item>Scenario_0_0_1_4</item>
+        <item>Scenario_0_0_1_3</item>
+        <item>Scenario_0_0_1_2</item>
+        <item>Scenario_0_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You lay on the ground, body swimming in liquids that smell of booze and canal water. It fills your nostrils with a disgusting sense of dread and familiarity.&nbsp;The odor makes you cringe.</p>
+<p>&nbsp;</p>
+<p>You are alive.<strong><br /></strong></p>
+<p>&nbsp;</p>]]></item>
+        <item>[Return]</item>
+        <item>bg_start</item>
+        <item>Scenario_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_0_1_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Your fingers flutter against your pulse. It is empty, the familiar weight a phantom against your skin.</p>
+<p>&nbsp;</p>
+<p>Your ring is gone.</p>
+<p>&nbsp;</p>]]></item>
+        <item>[Return]</item>
+        <item>bg_start</item>
+        <item>Scenario_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_0_1_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You try to move your hand. Pain shoots up your arm and you grit your teeth.&nbsp;After a moment, you continue.&nbsp;You raise your hand to your face and it comes back clear.</p>
+<p>&nbsp;</p>
+<p>No blood.</p>
+<p>&nbsp;</p>]]></item>
+        <item>[Return]</item>
+        <item>bg_start</item>
+        <item>Scenario_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_0_1_4">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You lift yourself up from the ground, elbows propping up against the cold wet floor. Your legs are unsteady as you rise to your feet.&nbsp;A pool of water mirrors your reflection.</p>
+<p>&nbsp;</p>
+<p><strong>You look pathetic.</strong></p>
+<p>&nbsp;</p>]]></item>
+        <item>>Continue</item>
+        <item>bg_start</item>
+        <item>Scenario_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The wind whips against your face.&nbsp;</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>bg_start</item>
+        <item>Scenario_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Your ring is gone.</p>
+<p>&nbsp;</p>
+<p><strong><u>Look for it.</u></strong></p>
+<p>&nbsp;</p>]]></item>
+        <item>[Search the pier]</item>
+        <item>[Search the harbor]</item>
+        <item>[Search the houses]</item>
+        <item>[Search the coast]</item>
+        <item>""</item>
+        <item>bg_start</item>
+        <item>Scenario_0_1_1</item>
+        <item>Scenario_4</item>
+        <item>Scenario_3</item>
+        <item>Scenario_2</item>
+        <item>Scenario_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You walk to the pier, concrete pavement making way to brittle wood.
+Before you, a man stands in his toll booth, gloved hands busy with
+counting the meager coins scattered across the counter. Business is slow.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Birds fly overhead.</p>
+<p>&nbsp;</p>
+<p>The island in the distance feels so far away.</p>]]></item>
+        <item>[Look at the sky]</item>
+        <item>[Search the bench]</item>
+        <item>[Search the floor]</item>
+        <item>[Approach the toll booth]</item>
+        <item>[Return]</item>
+        <item>pier</item>
+        <item>Scenario_0_1_1</item>
+        <item>Scenario_1_4</item>
+        <item>Scenario_1_3</item>
+        <item>Scenario_1_2</item>
+        <item>Scenario_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"It\'s raining. Why are you looking at the sky?\"</p>
+<p>\"Do you think a bird swallowed your ring? Idiot.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You turn your gaze to the bench settled beside the pier\'s
+railings. To its left is a trash can tucked into the corner.
+You approach it cautiously, memories of last night churning within your mind.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Still, you do not remember.</p>
+<p>&nbsp;</p>
+<p>It smells of booze.</p>]]></item>
+        <item>[Ignore it]</item>
+        <item>[Take a closer look]</item>
+        <item>[Return]</item>
+        <item>pier</item>
+        <item>Scenario_1_0_1</item>
+        <item>Scenario_1_2_2</item>
+        <item>Scenario_1_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The bench calls to you, begging you to sit on it. You tear your eyes away and ignore it. There is still work to be done.</p>
+<p>&nbsp;</p>
+<p>You cannot rest.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You take a closer look at the bench. It is old and worn. Rust eats away at the metal, and graffiti settles between the grain. You can make out a few words carved into the surface.</p>
+<p>&nbsp;</p>
+<p>\"Wala na tay kinaugmaon.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You look at the desolation around you.</p>]]></item>
+        <item>[Agree]</item>
+        <item>[Disagree]</item>
+        <item>""</item>
+        <item>pier</item>
+        <item>Scenario_1_2_2_2</item>
+        <item>Scenario_1_2_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"They\'re right. The world has left you for dead.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_2_0</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_2_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Even at the end of the world, there is still hope. She has not given up on you yet.</p>
+<p>&nbsp;</p>
+<p>You are still alive.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_2_0</item>
+    </string-array>
+
+    <string-array name="Scenario_1_2_2_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The trashcan is filled with bottles and discarded cigarettes.&nbsp;The air smells of mint and smoke.</p>
+<p>&nbsp;</p>
+<p>Your ring is not here.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You search the floor. The wood is wet and creaks underneath your muddy boots. Between the cracks you see waves crash against the rocks beneath. Falling here would surely result in death.</p>
+<p>&nbsp;</p>
+<p>You shiver.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Your ring is not here; and even if it was, it would\'ve long been taken by the waves.</p>
+<p>&nbsp;</p>
+<p>You can not give up so soon.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Before you even open your mouth, the man raises his head.
+He does not speak, merely nods in greeting. His beard is
+white with age, and his skin has seen better days.</p>]]></item>
+        <item>>Continue</item>
+        <item>\?????</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Jonah. His name is Jonah.</p>]]></item>
+        <item>[\"Good morning Jonah.\"]</item>
+        <item>[\"Did you see me last night?\"]</item>
+        <item>[\"Have you seen my ring?\"]</item>
+        <item>[Return]</item>
+        <item>pier</item>
+        <item>Scenario_1_0_1</item>
+        <item>Scenario_1_4_3</item>
+        <item>Scenario_1_4_2</item>
+        <item>Scenario_1_4_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Good morning.\" he replies, voice like gravel. He tries to smile but fails.&nbsp;</p>]]></item>
+        <item>[\"Slow day?\"]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He sighs and nods his head, momentarily abandoning the coins on the counter.
+ His eyes drift from you to the island far from shore.</p>]]></item>
+        <item>>Continue</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_1_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_1_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Tag-ulan is starting.\" Jonah shrugs. \"You know how it is. Tourists don\'t like the rain.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_1_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_1_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He goes back to counting.</p>]]></item>
+        <item>[Return]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He scratches his beard, gazes far off. His memory has weakened with age; often, they are swallowed by the haze. He hums as the image returns to him.</p>
+<p>&nbsp;</p>
+<p>A small victory in the face of death.</p>]]></item>
+        <item>>Continue</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Yes.\" he answers, a small smile stretching at the corners of his mouth.</p>
+<p>&nbsp;</p>
+<p>\"You were here last night with that friend of yours. Drinking.\"</p>]]></item>
+        <item>[Motion your neck]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>His brows draw together, confused. Of course, he doesn\'t understand. Idiot. You should\'ve explained better.</p>]]></item>
+        <item>>Continue</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_2_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_2_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Was I wearing…\" you mutter, motioning to your neck again.</p>
+<p>&nbsp;</p>
+<p>He is still confused.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He quirks a brow and looks at the empty hollow of your neck.&nbsp;A look of recognition passes his face.</p>
+<p>&nbsp;</p>
+<p>\"You mean your necklace?\"</p>]]></item>
+        <item>[\"Yeah. My ring was on it.\"]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"No, sorry.\" he sounds genuinely apologetic.</p>
+<p>&nbsp;</p>
+<p>\"I\'ll tell you if I\'ve seen it.\"</p>
+<p>&nbsp;</p>]]></item>
+        <item>>Continue</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Thank you.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Does Maria know?\"</p>]]></item>
+        <item>[You cringe]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Before you can stop it, your eye twitches. You refrain from doing any other unsavory expressions. Jonah is old, his memory fails him.</p>
+<p>&nbsp;</p>
+<p>Soon, time will eat at you as well.</p>]]></item>
+        <item>[\"She\'s doing well.\"]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Jonah smiles.</p>
+<p>&nbsp;</p>
+<p>\"That\'s great. I\'ve always been rather fond of that girl. Tell her I said hi.\"</p>]]></item>
+        <item>[You cringe]</item>
+        <item>Jonah</item>
+        <item>jonah</item>
+        <item>pier</item>
+        <item>Scenario_1_4_3_0_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_1_4_3_0_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You nod, smiling at him in return.</p>
+<p>&nbsp;</p>
+<p>The phantom weight hangs heavy on your neck. The noose around it tightens just a bit more.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>pier</item>
+        <item>Scenario_1_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Surely your ring is somewhere around here; after all, this is where you\'d
+woken up moments prior. Trucks are stationed to the side, drivers sitting
+underneath the roof for shelter. Containers surround you in a maze of dull colors.
+Most of them are locked.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You hear the wind as it slips through the cracks. Hollow.</p>
+<p>&nbsp;</p>
+<p>Some of them are open.</p>]]></item>
+        <item>[Ask the drivers]</item>
+        <item>[Search the trucks]</item>
+        <item>[Search the containers]</item>
+        <item>[Search your home]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_0_1_1</item>
+        <item>Scenario_2_4</item>
+        <item>Scenario_2_3</item>
+        <item>Scenario_2_2</item>
+        <item>Scenario_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You approach the drivers. They are all engrossed in a conversation about fish sale prices. Some are asleep.</p>
+<p>&nbsp;</p>
+<p>When you arrive they all greet you before returning to their previous topic.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>One of them stands to meet you. He is tall, muscular, and stocky.
+His gaze is kind as he gives you a hug in greeting.</p>]]></item>
+        <item>>Continue</item>
+        <item>\?????</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>"Brad." he starts "Are you okay? Ni hawa lagi kag pina-live?"</p>
+<p>&nbsp;</p>
+<p>He\'s so muscular you briefly forget his name. You know it, however.</p>
+<p>&nbsp;</p>
+<p>Seth.</p>]]></item>
+        <item>>Continue</item>
+        <item>Muscular man</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You pat his back emphatically.</p>]]></item>
+        <item>[\"Good morning.\"]</item>
+        <item>[\"I left?\"]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_2_0_1</item>
+        <item>Scenario_2_1_2</item>
+        <item>Scenario_2_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The man smiles. \"Good morning sad.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>He nods, his arm now moving to lay comfortably on top of your shoulders.<br />
+<br />\"We drank last night, remember? Until you and Junjun started fighting again and left.
+Okay ra mo?\"</p>]]></item>
+        <item>[\"Okay ra mi.\"]</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You try your best not to cringe and instead nod at him awkwardly
+from your position tucked underneath his shoulder.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The look he sends you is unsure, but thankfully he doesn\'t press further.</p>]]></item>
+        <item>[\"Have you seen my ring?\"]</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1_1_1">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>A look of understanding passes his face.</p>
+<p>Empathy. He shakes his head at you and shrugs.</p>]]></item>
+        <item>>Continue</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1_1_1_1">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>\"Wala. I\'m sorry to say this but you should probably ask Junjun. He was the last one with you yesterday.\"</p>]]></item>
+        <item>[\"Thank you.\"]</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1_1_1_1_1">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>He smiles heartily and gives your shoulders a little shake before letting go.</p>
+<p>&nbsp;</p>
+<p>\"Hey, chin up. Makita ra nimo na puhon.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>Seth</item>
+        <item>seth</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_2_0_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_1_2_0_1_1_1_1_1_1">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>You muster a smile at him. It looks pathetic.</p>
+<p>&nbsp;</p>
+<p>\"Puhon.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_1_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_2">
+        <item><![CDATA[<pre>&nbsp;</pre>
+<p>\"What are you thinking? Of course, you can\'t do that. It\'s private property,
+and you\'re not part of the police.&nbsp;If the drivers found your ring they\'d return
+it to you. They know you.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Still, you spend some time checking the ground around the trucks and come back empty.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You comb through the steel sentinels. Some are new, their company logos emblazoned on the sides.
+Most are old, the salty air chipping at the paint and bathing them in rust.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Take your pick.</p>]]></item>
+        <item>[Red Container]</item>
+        <item>[Blue Container]</item>
+        <item>[Yellow container]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_2_0_1</item>
+        <item>Scenario_2_3_3</item>
+        <item>Scenario_2_3_2</item>
+        <item>Scenario_2_3_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>A red container stands before you. It is dark on the inside, but the doors are wide open.</p>]]></item>
+        <item>[Look inside]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>There is nothing within it.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You approach the blue container. It\'s one of the more pristine ones,
+too young for the sea to have taken it as its own. It is located beside
+a wall, far enough from the others to be undisturbed but not far enough
+to be suspicious.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You would have passed it by had it not been for the soft snores emanating from within</p>
+<p>&nbsp;</p>
+<p>Maybe you should open it.</p>]]></item>
+        <item>[No.]</item>
+        <item>[Open]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+        <item>Scenario_2_3_2_2</item>
+        <item>Scenario_2_3_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>If someone is sleeping inside, it is none of your business.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The snores, you find, really did come from within.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_0_1">
+        <item>A young man, barely 20, sleeps on the floor. Underneath him is an aged
+            patchwork of a bed that looks more like a rug than it does a mattress.
+            Based on the amount of furniture and trinkets around him, it seems that
+            he lives here on a permanent or semi-permanent basis.</item>
+        <item>>Continue</item>
+        <item>\?????</item>
+        <item>young_man</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You could wake him up</p>]]></item>
+        <item>[No.]</item>
+        <item>[Yes.]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+        <item>Scenario_2_3_2_2_2</item>
+        <item>Scenario_2_3_2_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>This young man has clearly been through some things,
+and the last thing he needs is for some weird drunk to
+disturb his sleep. Leave him alone.</p>]]></item>
+        <item>>Continue</item>
+        <item>young_man</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You close the door and leave.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>A young man shouldn\'t be sleeping here in the cold like this.
+Besides, containers are basically saunas in the heat. He\'d cook
+himself alive when the sun comes out.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You approach his sleeping form, the cold metal creaking underneath your feet.
+It reverberates through the room. Even the person\'s snoring is not enough to
+drown out the noise.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Still, he does not wake.</p>]]></item>
+        <item>>Continue</item>
+        <item>young_man</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_2_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_2_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You poke him to wake him up, gently increasing the pressure.
+He continues to snore, not knowing any better. There is nothing
+for you to do here anymore.</p>]]></item>
+        <item>>Continue</item>
+        <item>young_man</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_2_2_2_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_2_2_2_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You search the inside of your pockets for a snack and come out with a chocolate Venus bar. You leave it out on the blessedly dry table.</p>
+<p>&nbsp;</p>
+<p>You leave.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You approach the yellow container. At least, you think it\'s yellow. Age has not been kind to it. It is more rust than it is metal.</p>
+<p>&nbsp;</p>
+<p>You look inside.&nbsp;It is filled with discarded items.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<pre>Something glints in your peripheral.</pre>]]></item>
+        <item>[Furniture]</item>
+        <item>[Clothes]</item>
+        <item>[Toys]</item>
+        <item>[Return]</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+        <item>Scenario_2_3_3_3</item>
+        <item>Scenario_2_3_3_2</item>
+        <item>Scenario_2_3_3_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>There are sofas and tables pushed up against the container\'s walls.
+Above, the broken roof drips rainwater onto the sodden floor. If the
+sun were out, they would shine through the holes.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You have a feeling that the furniture is the only thing
+keeping this place upright. It\'s best not to touch them for now.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Articles of clothing are strewn about the inside of the container.
+They are bound in tightly wound cubes covered in plastic… Well, at
+least they used to be. Most of them have been opened long before
+you came.&nbsp;</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p><span >The hardened ties that once held them together are broken,
+showing evidence of knives and determination.</span></p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Air blows in from the open doors. The ties move and creak
+happily, waving at you in a strange sort of dance.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_2_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_2_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The beast has left its horde, and the people rejoice. They
+take what little treasures they can for their own. They
+needed it more, anyway. With them, it is in much better hands</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>An assortment of toys is laid out before you. They are either torn,
+muddy, or caked in a layer of dust. Some are broken beyond repair.
+One toy stands out to you from the wreckage. It is a model of the
+rocket used in the Artemis missions.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You wanted to be one of them, once. A man, an <em>Indio </em>man,
+flying past the skies to the world beyond. It was a stupid dream,
+but it kept you off the streets, kept you studying at home. Maybe
+that\'s why your mother let you think you could be one.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_3_3_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_3_3_3_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>What were you thinking? You\'d never be able to afford it. And even if you did,
+they\'d never let <em>your kind</em> onto their porcelain towers.</p>
+<p>&nbsp;</p>
+<p>Best not to think about it.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>harbor</item>
+        <item>Scenario_2_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4">
+        <item>You turn to the small building situated past the harbor. It rises above the water on stone legs, waiting.
+         In the first revolution, it served as a loyalist watch house that monitored the bay for deserters and refugees.
+            There used to be a tower beside it, but it has since been torn down.</item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The rubble can still be found scattered around it from the fall.</p>]]></item>
+        <item>[It\'s old.]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>It is. The city has already built a new tower further into the gulf. At night, you can see its light, spinning for eternity.</p>
+<p>&nbsp;</p>
+<p>Like the world\'s most messed up disco ball.</p>]]></item>
+        <item>[Then why is it still here?]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>It was too expensive to tear down. Besides, you live there now. The war has
+long since passed. Mostly you just make sure people don\'t throw themselves into the sea.</p>
+<p>&nbsp;</p>
+<p>What are you waiting for?</p>]]></item>
+        <item>[Go home]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You enter the small building. It is concrete, from when concrete was
+still a new innovation. Now, it just looks old… and cheap. There is
+no paint on the walls, just cracks from past earthquakes and water
+stains. The floor is blessedly dry.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_0_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Around you, there are signs of <em>life</em>.</p>
+<p>&nbsp;</p>
+<p>Rain drips from the roof into a halfway full bucket</p>]]></item>
+        <item>[Check the kitchen]</item>
+        <item>[Check the bed]</item>
+        <item>[Check the dresser]</item>
+        <item>[Return]</item>
+        <item>house</item>
+        <item>Scenario_2_0_1</item>
+        <item>Scenario_2_4_3</item>
+        <item>Scenario_2_4_2</item>
+        <item>Scenario_2_4_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The kitchen, which barely counts as one, is clean. All of the utensils are
+in order… save for two mugs. One is filled with water, the other half-drunk coffee.</p>
+<p>&nbsp;</p>
+<p>You check the sink for your ring before pouring them both in. You\'ll
+clean them later.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The bed is messy, but the sheets are brand new. When you climb
+it to look for your ring, it creaks underneath you.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The pillows smell of beer, sweat, and smoke. Underneath, there is an undercurrent of something lighter…</p>
+<p>&nbsp;</p>
+<p>Mint.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The scent whispers something into your ear.</p>
+<p>&nbsp;</p>
+<p><em>You will not find it here.</em></p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3">
+        <item>Your dresser has seen better days. The original wood is a beautiful deep brown,
+            salvaged from the maws of the beast. When you took it home, it looked worse for wear.
+            Still, you\'d patched it up with what you could find and set it up beside your bed. It\'s
+            one of your older pieces of furniture. You love it dearly.</item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You check the inside of the dresser and come back empty.&nbsp;The items laid on top of it are sparse.</p>
+<p>&nbsp;</p>
+<p>Take a look</p>]]></item>
+        <item>[Check the ashtray]</item>
+        <item>[Check the picture frame]</item>
+        <item>[Return]</item>
+        <item>house</item>
+        <item>Scenario_2_4_0_1_1_1_1_1</item>
+        <item>Scenario_2_4_3_2</item>
+        <item>Scenario_2_4_3_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You check the tray; it is half-full with ash and cigarette stubs. The brand is a familiar one, but you do not smoke&hellip;</p>
+<p>&nbsp;</p>
+<p>You take the tray and dump its contents somewhere safe.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>There is only one picture framed on top of your dresser. It is of a
+woman in her thirties with light skin and auburn hair. She has her
+arms wrapped around your shoulders, a cigarette alight on her lips.
+Behind her, an expanse of sea.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You were both younger then.&nbsp;Tears form at the corners of your eyes.</p>]]></item>
+        <item>[You miss her]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_3_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_2_4_3_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You choke back a sob and look away. As you do so, your eyes catch on to a slip of paper
+tucked underneath the frame. You take it in your hands. \"Take care, <em>langga</em>.\"
+is scrawled onto it in neat handwriting.</p>
+<p>&nbsp;</p>
+<p>You smile.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>house</item>
+        <item>Scenario_2_4_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3">
+        <item>You head towards the sound of distant laughter. In front of you is a neighborhood,
+            one part on land the other suspended precariously above water on thin wooden stilts.
+            As you enter, children run past you in a flurry of energy. One of them knocks into you
+            but apologizes before rejoining the others.</item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You nod at them and then turn to look at what\'s in front of you.</p>
+<p>&nbsp;</p>
+<p>Rain patters against the darkened streets and drains out into the sea.
+It should be cold—-and it is, but somehow you don\'t feel it.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Most people have run under roofs for shelter except for one girl
+who stands underneath a drain pipe attached to a rain gutter.</p>
+<p>&nbsp;</p>
+<p>The rain has soaked your clothes.</p>]]></item>
+        <item>[The tattoo artist] </item>
+        <item>[The child]</item>
+        <item>[The Smoker]</item>
+        <item>[The girl on the balcony]</item>
+        <item>[Return]</item>
+        <item>town</item>
+        <item>Scenario_0_1_1</item>
+        <item>Scenario_3_4</item>
+        <item>Scenario_3_3</item>
+        <item>Scenario_3_2</item>
+        <item>Scenario_3_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You approach the dark-haired lady who looks at you with barely
+contained disdain. Her arm is covered in tattoos. You feel as if
+they run further—-past her sleeves, past her skin, past muscle and bone.</p>
+<p>&nbsp;</p>
+<p>Etched into her soul.</p>]]></item>
+        <item>>Continue</item>
+        <item>\?????</item>
+        <item>tattoo_lady</item>
+        <item>town</item>
+        <item>Scenario_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>In her hand is a lit cigarette.</p>
+<p>&nbsp;</p>
+<p>Say something cool.</p>]]></item>
+        <item>[\"Hey.\"]</item>
+        <item>[\"You\'re so hot.\"]</item>
+        <item>[\"Can you tattoo me?\"]</item>
+        <item>[Return]</item>
+        <item>town</item>
+        <item>Scenario_3_0_1_1</item>
+        <item>Scenario_3_1_3</item>
+        <item>Scenario_3_1_2</item>
+        <item>Scenario_3_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Her brows furrow.</p>
+<p>&nbsp;</p>
+<p>She ignores you.</p>]]></item>
+        <item>[Return]</item>
+        <item>Hot tattoo lady</item>
+        <item>tattoo_lady</item>
+        <item>town</item>
+        <item>Scenario_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Don\'t say that. You don\'t even know her name.</p>
+<p>&nbsp;</p>
+<p>Your mouth flounders for words.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_1_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>She ignores you.</p>]]></item>
+        <item>[Return]</item>
+        <item>Hot tattoo lady</item>
+        <item>tattoo_lady</item>
+        <item>town</item>
+        <item>Scenario_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_1_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>She ignores you.</p>]]></item>
+        <item>[Return]</item>
+        <item>Hot tattoo lady</item>
+        <item>tattoo_lady</item>
+        <item>town</item>
+        <item>Scenario_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Coincidentally, the child is also soaked. She looks up at you from
+underneath the stream of water, giggling.&nbsp; She looks like <em>her. </em></p>
+<p>&nbsp;</p>
+<p>You smile.</p>]]></item>
+        <item>>Continue</item>
+        <item>\?????</item>
+        <item>ophie</item>
+        <item>town</item>
+        <item>Scenario_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Ophie. Short for Ophelia.&nbsp;\"Hi uncle!\" she greets</p>
+<p>&nbsp;</p>
+<p>She\'s <em>her </em>niece. Her blood.</p>]]></item>
+        <item>[\"Hi langga.\"]</item>
+        <item>[\"Ophie did you see me last night?\"]</item>
+        <item>[Return]</item>
+        <item>town</item>
+        <item>Scenario_3_0_1_1</item>
+        <item>Scenario_3_2_2</item>
+        <item>Scenario_3_2_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>She smiles and runs toward you, giving your leg a tight hug before letting go.</p>
+<p>&nbsp;</p>
+<p>Ophie cranes her neck to look at your face before taking your hand and pressing
+it to her forehead. \"Mano po.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>Ophie</item>
+        <item>ophie</item>
+        <item>town</item>
+        <item>Scenario_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_2">
+        <item>She looks up at you curiously and pauses. She\'s not sure if she should
+            tell; she\'s much more worried about you snitching on her to her mother.
+        You know she reads late into the night. At home you can see the lights from the houses.
+            Her room is lit dimly with a candle that flickers from the cold wind.</item>
+        <item>[\"I won\'t tell your mom.\"]</item>
+        <item>Ophie</item>
+        <item>ophie</item>
+        <item>town</item>
+        <item>Scenario_3_2_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Her eyes light up. She\'s ready to talk now.</p>]]></item>
+        <item>>Continue</item>
+        <item>Ophie</item>
+        <item>ophie</item>
+        <item>town</item>
+        <item>Scenario_3_2_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"I did!\" she nods, flailing her arms around under the stream of water.
+\"I don\'t know what time it was po but you were at the coast. You were
+digging the sand po for something, I think.\"</p>]]></item>
+        <item>[\"Oh.\"]</item>
+        <item>Ophie</item>
+        <item>ophie</item>
+        <item>town</item>
+        <item>Scenario_3_2_2_0_1_1_1</item>
+    </string-array>
+
+
+    <string-array name="Scenario_3_2_2_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>This does not bode well for you.</p>
+<p>&nbsp;</p>
+<p>\"Salamat Ophie.\" you smile. You pet her on the head and she swats at you.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_2_2_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_2_2_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The two of you talk about what books she wants to read next. You\'ll buy her another when your sahod comes in.</p>
+<p>&nbsp;</p>
+<p>Some time passes.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3">
+        <item>A smoker stands in the dark, a cigarette placed delicately between his lips.
+            He\'s wearing a pressed green shirt tucked into faded jeans and work boots.
+        Your eyes track the elegant cord of muscle up from the base of his neck to his eyes.
+        He is watching you… Like you\'re some sort of animal.</item>
+        <item>>Continue</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He stubs his cigarette in a nearby ashtray and the two of you descend two staircases into the dark.</p>
+<p>&nbsp;</p>
+<p>It wouldn\'t do well to have this conversation here.</p>]]></item>
+        <item>>Continue</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_0_1_1">
+        <item>He sets the flame of his lighter to the butt of a new cigarette. It bathes him in its orange glow. You watch as he leans against one of the stilts.
+            You are now below the village. Barely any light gets through here, but it\'s still enough to see.\n\n
+        Waves crash against your feet and your senses are filled with the scent of sea, smoke, and mint.</item>
+        <item>[\"John."\]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You want to breathe it all in.</p>]]></item>
+        <item>[\"You left.\"]</item>
+        <item>[\"About last night.\"]</item>
+        <item>[Return]</item>
+        <item>town</item>
+        <item>Scenario_3_0_1_1</item>
+        <item>Scenario_3_3_2</item>
+        <item>Scenario_3_3_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"I always leave,\" he replies, voice soft. It\'s almost drowned out by the sound of waves.</p>
+<p>&nbsp;</p>
+<p>You cannot let her take him too.</p>]]></item>
+        <item>[Beg him to stay]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_1_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_1_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"Don\'t.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_3_1_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_1_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"You loved her.\"</p>
+<p>&nbsp;</p>
+<p>\"You loved her and held on to her so tight that she\'d almost dragged you down with her.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_3_1_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_1_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>\"You were drowning. Perhaps, you still are. Do not do to him what you\'ve done to her.\"</p>
+<p>&nbsp;</p>
+<p>\"Be better.\"</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_3_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2">
+        <item>He draws his shoulders back, as if readying himself for the incoming conversation.\n\n
+        John doesn\'t like talking about \"last night.\" He doesn\'t like talking about any nights,
+            for the matter. Emotional vulnerability isn\'t something he\'s particularly good at.</item>
+        <item>>Continue</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Still, he relents.<em> For you.</em></p>
+<p>&nbsp;</p>
+<p><em>He\'s trying to be better, too.</em></p>]]></item>
+        <item>>Continue</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>"Yes?"</p>]]></item>
+        <item>[\"I lost my ring.\"]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>His shoulders sag. Relief.</p>
+<p>&nbsp;</p>
+<p>Next time, he\'ll be more prepared. For now, he\'s just happy
+that he has enough time to <em>think</em>.</p>]]></item>
+        <item>>Continue</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p><em>\"Again?\" he asks, brows furrowed. In the dark you can\'t see his eyes,
+but you know they\'re filled with some sort of worry.</em></p>]]></item>
+        <item>[\"Yeah.\"]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You look to the side uncomfortably. He reaches out and gives your shoulder
+a reassuring pat. You want it to stay there, but this is not the time and place.</p>
+<p>&nbsp;</p>
+<p>\"I lost it last night, I don\'t remember much.\"</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p><em>"You drank too much"</em></p>
+<p>&nbsp;</p>
+<p><em>"You still had it when I left, but I saw you leave on the way home.
+You were headed to the coast… I think."</em></p>]]></item>
+        <item>[\"Okay.\"]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You nod slowly.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>town</item>
+        <item>Scenario_3_3_2_0_1_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_3_2_0_1_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>He smiles. Even in the dark, you know what it looks like. Especially in the dark.</p>
+<p>&nbsp;</p>
+<p>The two of you remain in silence for a bit more before returning back upstairs.</p>]]></item>
+        <item>[Return]</item>
+        <item>John</item>
+        <item>john</item>
+        <item>town</item>
+        <item>Scenario_3_3_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_3_4">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The girl on the balcony is asleep, her head tucked into the crook of her elbow as she listens to the radio.</p>
+<p>&nbsp;</p>
+<p>Do not disturb her.</p>]]></item>
+        <item>[Return]</item>
+        <item>sleeping_girl</item>
+        <item>town</item>
+        <item>Scenario_3_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4">
+        <item>The coast is clean but unsurprisingly gray in color. Though tourists flock the area
+            to gain access to the open sea, most of them head north to the resorts or west to the
+            island where the sand is white and soft underneath their feet.The only people who ever
+            stay in your area are locals and fishermen.</item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>What should you check?</p>]]></item>
+        <item>[Sky]</item>
+        <item>[Shoreline]</item>
+        <item>[Booze in the sand]</item>
+        <item>[Boat]</item>
+        <item>[Return]</item>
+        <item>coastline</item>
+        <item>Scenario_0_1_1</item>
+        <item>Scenario_4_4</item>
+        <item>Scenario_4_3</item>
+        <item>Scenario_4_2</item>
+        <item>Scenario_4_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Stop that. Stop looking at the sky. Why are you doing this?</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The shoreline has nothing in store for you. There is only sand,
+shells, and garbage the sweepers have yet to pick up.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You stare at the bottles in front of you, half-buried within the sand.
+They\'re all from the same brand: Blue Stallion. It\'s a cheap but
+delicious beer often enjoyed in your country.</p>
+<p>&nbsp;</p>
+<p>They\'re all empty.</p>]]></item>
+        <item>[You\'ve definitely been here.]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_3_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_3_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You know it in your gut. The only person pathetic enough to go drinking
+on the shore is you. Usually, you cleaned up after yourself but… not tonight, it seemed.</p>
+<p>&nbsp;</p>
+<p>Not surprising at all considering the headache you woke up with.</p>]]></item>
+        <item>[Continue]</item>
+        <item>""</item>
+        <item>[\"No. Take me away from here.\"]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_3_0_1</item>
+        <item>Scenario_4_3_0_1_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_4_3_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You start to search the sand. At first, it was a simple perusal.
+When you couldn\'t find it, you started to dig.</p>]]></item>
+        <item>[Continue]</item>
+        <item>""</item>
+        <item>[\"No. This is stupid\"]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_3_0_1_1</item>
+        <item>Scenario_4_3_0_1_1_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_4_3_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Your hands are sore by the time you\'ve dug a deep enough hole to bury yourself in.
+The ring is not here amongst your suffering.</p>
+<p>&nbsp;</p>
+<p>You wish it were.</p>]]></item>
+        <item>[Give up]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_3_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_3_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You rise from the sand and carefully undo all the damage you\'ve done.
+You patch the sand back into the hole and pick up the bottles, then
+deposit them into the trash bin.</p>
+<p>&nbsp;</p>
+<p>Look for it again.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>A boat drifts aimlessly in the water, barely holding on to the post it is tied to.
+It sways to the waves and clinks with every lurch forward.</p>
+<p>&nbsp;</p>
+<p>\"Wait. Clink?\"</p>]]></item>
+        <item>[Maybe you were there.]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You fold your pants to your knees and trudge through the water.
+It\'s kind of stupid considering you\'re already wet, but it\'s
+easier to walk this way.</p>]]></item>
+        <item>[Continue]</item>
+        <item>""</item>
+        <item>[\"Stop. This is stupid.\"]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_0_1</item>
+        <item>Scenario_4_4_0_1_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Sand gives out under your feet as you drag the boat to shore.
+It is full of trash. The smell makes even your head spin.</p>]]></item>
+        <item>[Continue]</item>
+        <item>""</item>
+        <item>[\"That\'s disgusting.\"]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_0_1_1</item>
+        <item>Scenario_4_4_0_1_1_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You roll up your sleeves and start searching. It must be here somewhere.</p>
+<p>&nbsp;</p>
+<p>Where do you start?</p>]]></item>
+        <item>[The trash]</item>
+        <item>""</item>
+        <item>[Return]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_0_1_1_1</item>
+        <item>Scenario_4_4_0_1_1_1_1</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You shove your hands into the trash within. You don\'t know where it comes
+from—-probably from some teens who don\'t know any better.</p>
+<p>&nbsp;</p>
+<p>The trash feels soggy against your fingertips and bile rises in your throat.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Why are you doing this?</p>
+<p>&nbsp;</p>
+<p>Just give up already.</p>]]></item>
+        <item>[Continue]</item>
+        <item>[Give up]</item>
+        <item>""</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_1_1_1_1_1</item>
+        <item>Scenario_5</item>
+        <item>Scenario_4_4_0_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You fight off the tears that threaten to spill out.</p>
+<p>&nbsp;</p>
+<p>Keep going. She\'s in there somewhere.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You roll up your sleeves and start searching. It must be here somewhere.</p>
+<p>&nbsp;</p>
+<p>Where do you start?</p>]]></item>
+        <item>[The trash]</item>
+        <item>[The clothes]</item>
+        <item>[Return]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_2</item>
+        <item>Scenario_4_4_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You shove your hands into the trash within. You don\'t know where it comes
+from—-probably from some teens who don\'t know any better.</p>
+<p>&nbsp;</p>
+<p>The trash feels soggy against your fingertips and bile rises in your throat.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You search the clothes. Maybe you accidentally dropped it somewhere. It should be here.</p>
+<p>&nbsp;</p>
+<p>Why isn\'t it here?</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Why are you doing this?</p>
+<p>&nbsp;</p>
+<p>Just give up already.</p>]]></item>
+        <item>[Continue]</item>
+        <item>[Give up]</item>
+        <item>""</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0</item>
+        <item>Scenario_5</item>
+        <item>Scenario_4_4_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You fight off the tears that threaten to spill out.</p>
+<p>&nbsp;</p>
+<p>Keep going. She\'s in there somewhere.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You roll up your sleeves and start searching. It must be here somewhere.</p>
+<p>&nbsp;</p>
+<p>Where do you start?</p>]]></item>
+        <item>[The trash]</item>
+        <item>[The clothes]</item>
+        <item>[The bottles]</item>
+        <item>[Return]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_0_3</item>
+        <item>Scenario_4_4_0_2</item>
+        <item>Scenario_4_4_0_1_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_1_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You shove your hands into the trash within. You don\'t know where it comes
+from—-probably from some teens who don\'t know any better.</p>
+<p>&nbsp;</p>
+<p>The trash feels soggy against your fingertips and bile rises in your throat.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0</item>
+    </string-array>
+
+
+    <string-array name="Scenario_4_4_0_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You search the clothes. Maybe you accidentally dropped it somewhere. It should be here.</p>
+<p>&nbsp;</p>
+<p>Why isn\'t it here?</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The bottles are empty.</p>
+<p>&nbsp;</p>
+<p>It\'s not there.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Why are you doing this?</p>
+<p>&nbsp;</p>
+<p>Just give up already.</p>]]></item>
+        <item>[Continue]</item>
+        <item>[Give up]</item>
+        <item>""</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0</item>
+        <item>Scenario_5</item>
+        <item>Scenario_4_4_0_0_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You fight off the tears that threaten to spill out.</p>
+<p>&nbsp;</p>
+<p>Keep going. She\'s in there somewhere.</p>]]></item>
+        <item>[Return]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Last chance. Continue searching or give up.</p>]]></item>
+        <item>[The trash]</item>
+        <item>[The clothes]</item>
+        <item>[The bottles]</item>
+        <item>[Give up]</item>
+        <item>coastline</item>
+        <item>Scenario_4_0_1</item>
+        <item>Scenario_4_4_0_0_3</item>
+        <item>Scenario_4_4_0_0_2</item>
+        <item>Scenario_4_4_0_0_1_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_1_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You shove your hands into the trash within. You don\'t know where it comes
+from—-probably from some teens who don\'t know any better.</p>
+<p>&nbsp;</p>
+<p>The trash feels soggy against your fingertips and bile rises in your throat.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_2">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You search the clothes. Maybe you accidentally dropped it somewhere. It should be here.</p>
+<p>&nbsp;</p>
+<p>Why isn\'t it here?</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_3">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The bottles are empty.</p>
+<p>&nbsp;</p>
+<p>It\'s not there.</p>]]></item>
+        <item>>Continue</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_4_4_0_0_0</item>
+    </string-array>
+
+    <string-array name="Scenario_4_4_0_0_0">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Why are you doing this?</p>
+<p>&nbsp;</p>
+<p>Just give up already.</p>]]></item>
+        <item>[Give up]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5</item>
+    </string-array>
+
+    <string-array name="Scenario_5">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Waves wash over your feet as the tide rises higher.</p>
+<p>&nbsp;</p>
+<p>You grab onto the boat\'s edges and carefully push it back into the water where it once was.</p>]]></item>
+        <item>[Something shiny catches your eye]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You look down at a patch of sand underwater. It\'s murky, and your eyes strain.</p>]]></item>
+        <item>[It\'s there]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You scramble for footing as you run towards it.</p>
+<p>You can hear her words in your head.</p>]]></item>
+        <item>[You don\'t have to do this]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You dive towards the water. The rain pours harder above you.</p>
+<p>&nbsp;</p>
+<p>It\'s trying to drown you.</p>]]></item>
+        <item>[You\'re going to drown]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You push past the pain and try to grab at the ring.
+It glows in the water. It glows past the sand, past the murk.</p>
+<p>&nbsp;</p>
+<p>Your hands close around it.</p>]]></item>
+        <item>[You raise your hand]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>And come back with nothing. It\'s all sand. Nothing more, nothing less.&nbsp;</p>
+<p>&nbsp;</p>
+<p>You hear someone call your name from shore.</p>]]></item>
+        <item>[Who?]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>The water is above your chin now. Seawater stings your eyes, and your muscles tire.</p>
+<p>&nbsp;</p>
+<p>The person dives towards you.</p>]]></item>
+        <item>[The scent]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Your eyes close. Someone tugs on you. The world smells of trash and salt and bile and urine.</p>]]></item>
+        <item>[What else does it smell like?]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>Mint.</p>]]></item>
+        <item>[You cannot give up now]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>Scenario_5_0_1_1_1_1_1_1_1_1_1</item>
+    </string-array>
+
+    <string-array name="Scenario_5_0_1_1_1_1_1_1_1_1_1">
+        <item><![CDATA[<p>&nbsp;</p>
+<p>You breathe in air.</p>]]></item>
+        <item>[End]</item>
+        <item>mc</item>
+        <item>coastline</item>
+        <item>end</item>
+    </string-array>
+
+    <string-array name="end">
+        <item>RESTART</item>
+        <item>""</item>
+        <item>Scenario_0</item>
+    </string-array>
+</resources>
+
