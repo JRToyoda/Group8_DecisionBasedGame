@@ -10,14 +10,15 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/bg_start" />
+        app:srcCompat="@drawable/bg_start"
+        android:contentDescription="@string/description" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,7 +30,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/mc" />
+        app:srcCompat="@drawable/mc"
+        android:contentDescription="@string/description" />
 
     <Button
         android:id="@+id/button"
@@ -110,17 +112,29 @@
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ImageView
+        android:id="@+id/nameBG"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722"
+        app:srcCompat="@drawable/namebox"
+        android:contentDescription="@string/description" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="260dp"
         android:layout_height="50dp"
-        android:background="@drawable/namebox"
         android:text="@string/default_txtView"
         android:textColor="@color/orange"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.722" />
@@ -168,7 +182,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.359"
-        app:srcCompat="@drawable/title" />
+        app:srcCompat="@drawable/title"
+        android:contentDescription="@string/description" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

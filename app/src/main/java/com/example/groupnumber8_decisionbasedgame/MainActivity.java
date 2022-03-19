@@ -3,6 +3,7 @@ package com.example.groupnumber8_decisionbasedgame;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.HtmlCompat;
 
+import android.content.pm.ActivityInfo;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -13,14 +14,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.io.IOException;
 import java.util.Objects;
 
 @SuppressWarnings("ALL")
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextView name, textBox;
-    ImageView character, background, logo;
+    ImageView character, background, logo,nameBG;
     Button button,  button2,  button3,  button4, extra, start;
     String[] array;
     String choice;
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         Objects.requireNonNull(getSupportActionBar()).hide();
         setContentView(R.layout.activity_main);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         //buttons
         button = findViewById(R.id.button);
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         character = findViewById(R.id.imageView);
         background = findViewById(R.id.imageView2);
         logo = findViewById(R.id.logo);
+        nameBG = findViewById(R.id.nameBG);
 
         mediaPlayer();
 
@@ -100,14 +102,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    //bgm
     public void mediaPlayer() {
         mediaPlayer = MediaPlayer.create(MainActivity.this,R.raw.bg_music);
         mediaPlayer.setLooping(true);
         mediaPlayer.start();
     }
+
+    //Starting screeen
     public void start() {
         logo.setVisibility(View.VISIBLE);
         start.setVisibility(View.VISIBLE);
+        nameBG.setVisibility(View.INVISIBLE);
         textBox.setVisibility(View.INVISIBLE);
         button.setVisibility(View.INVISIBLE);
         button2.setVisibility(View.INVISIBLE);
@@ -133,10 +139,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             arrayID = getResources().getIdentifier(choice, "array", getPackageName());
             array = getResources().getStringArray(arrayID);
         }
-        if (array.length == 13) {//EXCEPTION
+        if (array.length == 13) {//4 Choices, no exta button
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.VISIBLE);
             button2.setVisibility(View.VISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -167,6 +174,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.VISIBLE);
             button2.setVisibility(View.VISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -197,6 +205,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.VISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -222,10 +231,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Assigning array.length an integer
             scenarioVal = 6;
         }
-        if (array.length == 9) {//EXCEPTION
+        if (array.length == 9) {//1 Choice
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -254,6 +264,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -278,10 +289,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Assigning array.length an integer
             scenarioVal = 5;
         }
-        if (array.length == 7) {//EXCEPTION
+        if (array.length == 7) {//2 choices, no extra button
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.VISIBLE);
@@ -317,6 +329,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             extra.setVisibility(View.VISIBLE);
             name.setVisibility(View.VISIBLE);
             character.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.VISIBLE);
             textBox.setVisibility(View.VISIBLE);
             start.setEnabled(false);
             button.setEnabled(false);
@@ -340,6 +353,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
             textBox.setVisibility(View.VISIBLE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.INVISIBLE);
@@ -368,6 +382,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (array.length == 4) { //no choices, no name, no character image
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.INVISIBLE);
@@ -393,6 +408,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (array.length == 3) { //END
             logo.setVisibility(View.GONE);
             start.setVisibility(View.GONE);
+            nameBG.setVisibility(View.INVISIBLE);
             button.setVisibility(View.INVISIBLE);
             button2.setVisibility(View.INVISIBLE);
             button3.setVisibility(View.INVISIBLE);

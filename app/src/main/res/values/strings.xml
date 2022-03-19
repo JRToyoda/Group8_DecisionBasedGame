@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">GroupNumber8_DecisionBasedGame</string>
+    <string name="description">something</string>
     <string name="start">START</string>
     <string name="default_Button">Choice 1</string>
     <string name="default_Button2">Choice 2</string>
@@ -1400,8 +1401,8 @@ digging the sand po for something, I think.\"</p>]]></item>
         Waves crash against your feet and your senses are filled with the scent of sea, smoke, and mint.</item>
         <item>[\"John."\]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_0_1_1_1</item>
     </string-array>
 
@@ -1411,7 +1412,7 @@ digging the sand po for something, I think.\"</p>]]></item>
         <item>[\"You left.\"]</item>
         <item>[\"About last night.\"]</item>
         <item>[Return]</item>
-        <item>town</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_0_1_1</item>
         <item>Scenario_3_3_2</item>
         <item>Scenario_3_3_1</item>
@@ -1424,8 +1425,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 <p>You cannot let her take him too.</p>]]></item>
         <item>[Beg him to stay]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_1_0_1</item>
     </string-array>
 
@@ -1433,8 +1434,8 @@ digging the sand po for something, I think.\"</p>]]></item>
         <item><![CDATA[<p>&nbsp;</p>
 <p>\"Don\'t.\"</p>]]></item>
         <item>>Continue</item>
-        <item>mc</item>
-        <item>town</item>
+        <item>mc_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_1_0_1_1</item>
     </string-array>
 
@@ -1444,8 +1445,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 <p>&nbsp;</p>
 <p>\"You loved her and held on to her so tight that she\'d almost dragged you down with her.\"</p>]]></item>
         <item>>Continue</item>
-        <item>mc</item>
-        <item>town</item>
+        <item>mc_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_1_0_1_1_1</item>
     </string-array>
 
@@ -1455,8 +1456,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 <p>&nbsp;</p>
 <p>\"Be better.\"</p>]]></item>
         <item>[Return]</item>
-        <item>mc</item>
-        <item>town</item>
+        <item>mc_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_0_1_1_1</item>
     </string-array>
 
@@ -1466,8 +1467,8 @@ digging the sand po for something, I think.\"</p>]]></item>
             for the matter. Emotional vulnerability isn\'t something he\'s particularly good at.</item>
         <item>>Continue</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1</item>
     </string-array>
 
@@ -1478,8 +1479,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 <p><em>He\'s trying to be better, too.</em></p>]]></item>
         <item>>Continue</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1</item>
     </string-array>
 
@@ -1488,8 +1489,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 <p>"Yes?"</p>]]></item>
         <item>[\"I lost my ring.\"]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1</item>
     </string-array>
 
@@ -1501,8 +1502,8 @@ digging the sand po for something, I think.\"</p>]]></item>
 that he has enough time to <em>think</em>.</p>]]></item>
         <item>>Continue</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1_1</item>
     </string-array>
 
@@ -1512,8 +1513,8 @@ that he has enough time to <em>think</em>.</p>]]></item>
 but you know they\'re filled with some sort of worry.</em></p>]]></item>
         <item>[\"Yeah.\"]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1_1_1</item>
     </string-array>
 
@@ -1524,8 +1525,8 @@ a reassuring pat. You want it to stay there, but this is not the time and place.
 <p>&nbsp;</p>
 <p>\"I lost it last night, I don\'t remember much.\"</p>]]></item>
         <item>>Continue</item>
-        <item>mc</item>
-        <item>town</item>
+        <item>mc_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1_1_1_1</item>
     </string-array>
 
@@ -1537,8 +1538,8 @@ a reassuring pat. You want it to stay there, but this is not the time and place.
 You were headed to the coast… I think."</em></p>]]></item>
         <item>[\"Okay.\"]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1_1_1_1_1</item>
     </string-array>
 
@@ -1546,8 +1547,8 @@ You were headed to the coast… I think."</em></p>]]></item>
         <item><![CDATA[<p>&nbsp;</p>
 <p>You nod slowly.</p>]]></item>
         <item>>Continue</item>
-        <item>mc</item>
-        <item>town</item>
+        <item>mc_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_2_0_1_1_1_1_1_1_1_1</item>
     </string-array>
 
@@ -1558,8 +1559,8 @@ You were headed to the coast… I think."</em></p>]]></item>
 <p>The two of you remain in silence for a bit more before returning back upstairs.</p>]]></item>
         <item>[Return]</item>
         <item>John</item>
-        <item>john</item>
-        <item>town</item>
+        <item>john_under_pier</item>
+        <item>under_the_pier</item>
         <item>Scenario_3_3_0_1_1_1</item>
     </string-array>
 
