@@ -116,21 +116,6 @@
             app:layout_constraintTop_toBottomOf="@+id/button3"
             app:layout_constraintVertical_bias="0.0" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="413dp"
-            android:layout_height="180dp"
-            android:background="@drawable/textbox"
-            android:gravity="center_horizontal"
-            android:text="@string/default_txtView2"
-            android:textColor="@color/white"
-            android:textSize="17sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -149,6 +134,22 @@
             app:layout_constraintVertical_bias="0.722"
             app:srcCompat="@drawable/namebox"
             android:contentDescription="@string/description" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_horizontal"
+            android:text="@string/default_txtView2"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/textView"
